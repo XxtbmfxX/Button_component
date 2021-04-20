@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+button,
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1,
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.aside {
+  display: -ms-grid;
+  display: grid;
+  place-items: center / center;
+  background-color: #FAFBFD;
+  height: 100vh;
+  width: 237px;
+  -webkit-margin-end: 83px;
+          margin-inline-end: 83px;
+}
+
+.aside p {
+  -webkit-margin-start: 56px;
+          margin-inline-start: 56px;
+  color: #9E9E9E;
+}
+
+.aside h4 {
+  -webkit-margin-start: 56px;
+          margin-inline-start: 56px;
+  font-weight: 600px;
+}
+
+#inputs {
+  color: #090F31;
+}
+
+.selector_variant_shadow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (60px)[4];
+  -ms-grid-columns: 168px 204px;
+      grid-template: repeat(4, 60px)/168px 204px;
+  gap: 45px  68px;
+}
+
+.selector_variant_shadow button {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
